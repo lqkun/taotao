@@ -28,7 +28,7 @@
 </head>
 <body>
 <!-- header start -->
-<jsp:include page="./commons/header.jsp" />
+<jsp:include page="commons/header.jsp" />
 <!-- header end -->
 <div class="w">
 <div id="o-slide">
