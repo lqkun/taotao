@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.taotao.common.pojo.EUTreeNode;
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.pojo.TbContentCategory;
 import com.taotao.service.ContentCategoryService;
 
 @Controller
@@ -25,5 +27,32 @@ public class ContentCategoryController {
 		
 		return list;
 	}
+	
+	@RequestMapping("/create")
+	@ResponseBody
+	public TaotaoResult createContentCategory(long parentId,String name) throws Exception {
+		
+		TaotaoResult result = categoryService.createContentCategory(parentId,name);
+		
+		return result;
+	}
+	
+	@RequestMapping("/delete")
+	@ResponseBody                                  
+	public TaotaoResult deleteContentCategory(long id) throws Exception {
+		
 
+		TaotaoResult result = categoryService.deleteContentCategory(id);
+		
+		return result;
+	}
+	@RequestMapping("/update")
+	@ResponseBody                                  
+	public TaotaoResult updateContentCategory(long id,String name) throws Exception {
+		
+
+		TaotaoResult result = categoryService.updateContentCategory(id, name);
+		
+		return result;
+	}
 }
