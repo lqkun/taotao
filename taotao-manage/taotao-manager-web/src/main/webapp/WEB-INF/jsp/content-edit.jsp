@@ -2,10 +2,12 @@
 <link href="/js/kindeditor-4.1.10/themes/default/default.css" type="text/css" rel="stylesheet">
 <script type="text/javascript" charset="utf-8" src="/js/kindeditor-4.1.10/kindeditor-all-min.js"></script>
 <script type="text/javascript" charset="utf-8" src="/js/kindeditor-4.1.10/lang/zh_CN.js"></script>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <div style="padding:10px 10px 10px 10px">
 	<form id="contentEditForm" class="itemForm" method="post">
 		<input type="hidden" name="categoryId"/>
 		<input type="hidden" name="id"/>
+		<input type="hidden" name="created" id="inp"/>
 	    <table cellpadding="5">
 	        <tr>
 	            <td>内容标题:</td>
@@ -53,22 +55,25 @@
 </div>
 <script type="text/javascript">
 var contentEditEditor ;
-$(function(){
+$(function(){	
 	contentEditEditor = TT.createEditor("#contentEditForm [name=content]");
 	TT.initOnePicUpload();
+	
 });
-
 var contentEditPage = {
 		submitForm : function(){
+			var str = $("#inp").val()*1;
+			$("#inp").val(new Date(str));
 			if(!$('#contentEditForm').form('validate')){
 				$.messager.alert('提示','表单还未填写完成!');
 				return ;
 			}
 			contentEditEditor.sync();
 			
-			$.post("/rest/content/edit",$("#contentEditForm").serialize(), function(data){
+			$.post("/content/edit",$("#contentEditForm").serialize(), function(data){
 				if(data.status == 200){
-					$.messager.alert('提示','新增内容成功!');
+					
+					$.messager.alert('提示','修改内容成功!');
 					$("#contentList").datagrid("reload");
 					TT.closeCurrentWindow();
 				}
@@ -78,5 +83,4 @@ var contentEditPage = {
 			
 		}
 };
-
 </script>
