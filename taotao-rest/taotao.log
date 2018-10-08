@@ -1,478 +1,430 @@
-2018-09-27 11:09:49,970 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 74(Long)
-2018-09-27 11:09:49,971 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-09-27 11:09:49,971 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,971 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,972 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,972 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 75(Long)
-2018-09-27 11:09:49,974 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 13
-2018-09-27 11:09:49,974 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,974 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,975 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,975 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 89(Long)
-2018-09-27 11:09:49,977 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 18
-2018-09-27 11:09:49,977 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,977 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,978 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,978 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 108(Long)
-2018-09-27 11:09:49,980 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 17
-2018-09-27 11:09:49,980 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,980 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,980 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,981 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 126(Long)
-2018-09-27 11:09:49,982 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 15
-2018-09-27 11:09:49,982 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,982 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,983 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,983 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 142(Long)
-2018-09-27 11:09:49,985 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 18
-2018-09-27 11:09:49,985 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,985 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,986 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,986 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 161(Long)
-2018-09-27 11:09:49,987 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-09-27 11:09:49,987 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,987 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,988 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,988 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 162(Long)
-2018-09-27 11:09:49,989 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
-2018-09-27 11:09:49,989 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,989 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,990 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,990 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 171(Long)
-2018-09-27 11:09:49,992 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 14
-2018-09-27 11:09:49,992 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,992 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,992 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,993 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 186(Long)
-2018-09-27 11:09:49,994 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 15
-2018-09-27 11:09:49,994 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,994 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,995 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,995 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 202(Long)
-2018-09-27 11:09:49,996 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-09-27 11:09:49,996 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,996 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,997 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,997 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 210(Long)
-2018-09-27 11:09:49,998 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 18
-2018-09-27 11:09:49,998 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:49,998 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:49,999 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:49,999 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 229(Long)
-2018-09-27 11:09:50,000 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 14
-2018-09-27 11:09:50,000 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,000 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,001 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,001 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 244(Long)
-2018-09-27 11:09:50,002 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,002 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,003 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,003 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,003 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 249(Long)
-2018-09-27 11:09:50,004 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,005 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,005 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,005 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,005 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 250(Long)
-2018-09-27 11:09:50,006 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-09-27 11:09:50,006 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,007 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,007 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,007 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 256(Long)
-2018-09-27 11:09:50,008 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-09-27 11:09:50,008 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,008 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,009 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,009 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 264(Long)
-2018-09-27 11:09:50,010 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,010 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,011 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,011 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,012 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 269(Long)
-2018-09-27 11:09:50,013 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,013 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,013 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,014 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,014 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 274(Long)
-2018-09-27 11:09:50,016 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,016 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,017 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,018 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,018 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 281(Long)
-2018-09-27 11:09:50,019 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
-2018-09-27 11:09:50,020 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,020 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,020 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,020 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 290(Long)
-2018-09-27 11:09:50,023 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 1
-2018-09-27 11:09:50,023 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,024 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,024 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,026 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 291(Long)
-2018-09-27 11:09:50,027 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,027 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,027 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,028 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,028 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 296(Long)
-2018-09-27 11:09:50,030 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
-2018-09-27 11:09:50,030 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,030 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,031 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,031 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 297(Long)
-2018-09-27 11:09:50,032 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
-2018-09-27 11:09:50,032 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,032 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,033 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,033 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 300(Long)
-2018-09-27 11:09:50,035 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
-2018-09-27 11:09:50,035 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,035 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,036 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,036 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 309(Long)
-2018-09-27 11:09:50,037 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,037 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,038 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,039 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,040 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 314(Long)
-2018-09-27 11:09:50,041 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-09-27 11:09:50,041 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,041 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,042 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,042 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 322(Long)
-2018-09-27 11:09:50,043 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
-2018-09-27 11:09:50,044 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,044 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,044 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,045 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 331(Long)
-2018-09-27 11:09:50,046 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
-2018-09-27 11:09:50,047 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,047 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,047 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,048 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 341(Long)
-2018-09-27 11:09:50,049 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,049 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,049 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,050 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,051 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 348(Long)
-2018-09-27 11:09:50,052 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
-2018-09-27 11:09:50,052 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,053 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,054 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,054 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 358(Long)
-2018-09-27 11:09:50,056 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 15
-2018-09-27 11:09:50,056 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,056 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,057 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,057 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 374(Long)
-2018-09-27 11:09:50,058 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-09-27 11:09:50,059 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,059 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,059 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,059 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 378(Long)
-2018-09-27 11:09:50,061 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-09-27 11:09:50,061 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,061 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,062 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,062 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 379(Long)
-2018-09-27 11:09:50,063 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,063 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,064 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,064 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,064 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 386(Long)
-2018-09-27 11:09:50,065 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
-2018-09-27 11:09:50,066 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,066 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,066 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,085 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 397(Long)
-2018-09-27 11:09:50,086 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-09-27 11:09:50,087 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,087 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,087 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,087 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 405(Long)
-2018-09-27 11:09:50,089 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,089 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,089 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,089 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,089 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 412(Long)
-2018-09-27 11:09:50,091 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-09-27 11:09:50,091 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,091 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,091 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,092 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 420(Long)
-2018-09-27 11:09:50,093 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,093 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,093 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,093 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,095 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 425(Long)
-2018-09-27 11:09:50,096 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
-2018-09-27 11:09:50,096 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,096 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,097 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,097 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 438(Long)
-2018-09-27 11:09:50,098 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-09-27 11:09:50,099 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,099 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,099 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,099 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 439(Long)
-2018-09-27 11:09:50,102 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 16
-2018-09-27 11:09:50,102 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,102 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,103 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,103 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 456(Long)
-2018-09-27 11:09:50,104 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
-2018-09-27 11:09:50,104 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,104 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,105 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,105 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 467(Long)
-2018-09-27 11:09:50,106 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,107 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,107 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,107 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,107 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 474(Long)
-2018-09-27 11:09:50,109 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
-2018-09-27 11:09:50,109 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,111 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,111 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,112 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 486(Long)
-2018-09-27 11:09:50,113 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
-2018-09-27 11:09:50,113 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,113 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,114 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,114 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 495(Long)
-2018-09-27 11:09:50,122 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
-2018-09-27 11:09:50,122 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,122 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,123 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,123 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 496(Long)
-2018-09-27 11:09:50,124 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,124 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,124 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,125 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,125 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 503(Long)
-2018-09-27 11:09:50,126 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-09-27 11:09:50,126 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,126 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,127 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,127 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 509(Long)
-2018-09-27 11:09:50,128 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
-2018-09-27 11:09:50,129 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,130 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,130 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,130 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 512(Long)
-2018-09-27 11:09:50,131 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-09-27 11:09:50,132 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,132 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,132 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,132 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 516(Long)
-2018-09-27 11:09:50,134 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-09-27 11:09:50,134 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,135 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,137 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,137 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 520(Long)
-2018-09-27 11:09:50,138 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,139 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,139 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,139 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,139 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 525(Long)
-2018-09-27 11:09:50,140 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-09-27 11:09:50,141 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,141 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,141 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,141 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 529(Long)
-2018-09-27 11:09:50,142 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,143 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,143 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,143 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,143 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 534(Long)
-2018-09-27 11:09:50,144 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,145 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,145 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,145 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,145 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 539(Long)
-2018-09-27 11:09:50,146 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-09-27 11:09:50,147 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,147 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,147 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,147 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 543(Long)
-2018-09-27 11:09:50,148 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
-2018-09-27 11:09:50,148 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,148 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,149 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,149 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 546(Long)
-2018-09-27 11:09:50,151 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
-2018-09-27 11:09:50,151 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,152 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,153 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,153 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 558(Long)
-2018-09-27 11:09:50,154 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-09-27 11:09:50,154 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,154 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,155 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,155 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 559(Long)
-2018-09-27 11:09:50,156 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
-2018-09-27 11:09:50,157 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,157 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,157 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,157 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 562(Long)
-2018-09-27 11:09:50,159 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,159 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,159 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,159 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,160 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 567(Long)
-2018-09-27 11:09:50,162 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
-2018-09-27 11:09:50,162 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,162 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,163 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,163 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 580(Long)
-2018-09-27 11:09:50,164 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-09-27 11:09:50,165 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,165 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,166 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,166 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 581(Long)
-2018-09-27 11:09:50,168 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
-2018-09-27 11:09:50,168 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,169 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,171 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,171 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 591(Long)
-2018-09-27 11:09:50,172 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
-2018-09-27 11:09:50,173 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,173 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,173 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,174 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 604(Long)
-2018-09-27 11:09:50,175 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
-2018-09-27 11:09:50,175 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,175 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,176 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,177 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 614(Long)
-2018-09-27 11:09:50,178 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
-2018-09-27 11:09:50,178 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,178 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,179 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,179 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 625(Long)
-2018-09-27 11:09:50,180 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-09-27 11:09:50,181 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,181 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,182 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,183 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 633(Long)
-2018-09-27 11:09:50,186 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,186 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,186 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,187 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,187 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 634(Long)
-2018-09-27 11:09:50,189 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 13
-2018-09-27 11:09:50,189 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,189 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,190 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,190 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 648(Long)
-2018-09-27 11:09:50,191 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
-2018-09-27 11:09:50,191 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,191 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,192 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,192 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 660(Long)
-2018-09-27 11:09:50,193 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,193 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,193 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,194 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,194 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 667(Long)
-2018-09-27 11:09:50,196 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 15
-2018-09-27 11:09:50,196 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,196 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,196 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,197 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 683(Long)
-2018-09-27 11:09:50,198 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-09-27 11:09:50,198 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,198 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,199 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,199 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 691(Long)
-2018-09-27 11:09:50,200 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-09-27 11:09:50,200 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,200 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,201 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,201 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 699(Long)
-2018-09-27 11:09:50,202 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,202 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,202 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,202 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,203 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 700(Long)
-2018-09-27 11:09:50,204 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
-2018-09-27 11:09:50,204 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,204 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,204 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,205 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 711(Long)
-2018-09-27 11:09:50,206 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-09-27 11:09:50,206 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,206 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,207 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,207 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 718(Long)
-2018-09-27 11:09:50,208 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-09-27 11:09:50,209 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,209 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,209 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,209 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 724(Long)
-2018-09-27 11:09:50,210 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
-2018-09-27 11:09:50,211 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,211 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,211 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,211 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 733(Long)
-2018-09-27 11:09:50,212 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-09-27 11:09:50,212 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,212 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,213 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,213 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 739(Long)
-2018-09-27 11:09:50,214 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
-2018-09-27 11:09:50,214 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,214 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,214 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,214 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 749(Long)
-2018-09-27 11:09:50,215 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:09:50,215 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,215 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,215 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,216 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 750(Long)
-2018-09-27 11:09:50,217 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 33
-2018-09-27 11:09:50,217 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,217 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,218 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,218 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 784(Long)
-2018-09-27 11:09:50,219 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 28
-2018-09-27 11:09:50,219 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,220 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,220 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,220 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 813(Long)
-2018-09-27 11:09:50,222 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 22
-2018-09-27 11:09:50,222 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,222 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a] from current transaction
-2018-09-27 11:09:50,223 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
-2018-09-27 11:09:50,223 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 836(Long)
-2018-09-27 11:09:50,225 [http-bio-8081-exec-7] [com.taotao.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 28
-2018-09-27 11:09:50,225 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,226 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,226 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@311c310a]
-2018-09-27 11:09:50,226 [http-bio-8081-exec-7] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-09-27 11:09:50,226 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=org.springframework.http.converter.json.MappingJacksonValue@7f52cfea
-2018-09-27 11:09:50,226 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=org.springframework.http.converter.json.MappingJacksonValue@7f52cfea
-2018-09-27 11:09:50,228 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [org.springframework.http.converter.json.MappingJacksonValue@7f52cfea] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@421cadec]
-2018-09-27 11:09:50,228 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
-2018-09-27 11:09:50,228 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2018-09-27 11:10:54,151 [http-bio-8081-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/rest/content/list/89]
-2018-09-27 11:10:54,151 [http-bio-8081-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/list/89
-2018-09-27 11:10:54,152 [http-bio-8081-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.taotao.common.pojo.TaotaoResult com.taotao.rest.controller.ContentController.getContentList(java.lang.Long)]
-2018-09-27 11:10:54,152 [http-bio-8081-exec-8] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentController'
-2018-09-27 11:10:54,152 [http-bio-8081-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/content/list/89] is: -1
-2018-09-27 11:10:54,153 [http-bio-8081-exec-8] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-09-27 11:10:54,154 [http-bio-8081-exec-8] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78c79a1d]
-2018-09-27 11:10:54,154 [http-bio-8081-exec-8] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-09-27 11:10:54,155 [http-bio-8081-exec-8] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
-2018-09-27 11:10:54,155 [http-bio-8081-exec-8] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@cc1c48] will be managed by Spring
-2018-09-27 11:10:54,155 [http-bio-8081-exec-8] [com.taotao.mapper.TbContentMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, category_id, title, sub_title, title_desc, url, pic, pic2, created, updated from tb_content WHERE ( category_id = ? ) 
-2018-09-27 11:10:54,155 [http-bio-8081-exec-8] [com.taotao.mapper.TbContentMapper.selectByExample]-[DEBUG] ==> Parameters: 89(Long)
-2018-09-27 11:10:54,158 [http-bio-8081-exec-8] [com.taotao.mapper.TbContentMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-09-27 11:10:54,158 [http-bio-8081-exec-8] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78c79a1d]
-2018-09-27 11:10:54,158 [http-bio-8081-exec-8] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78c79a1d]
-2018-09-27 11:10:54,158 [http-bio-8081-exec-8] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78c79a1d]
-2018-09-27 11:10:54,158 [http-bio-8081-exec-8] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-09-27 11:10:54,161 [http-bio-8081-exec-8] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.taotao.common.pojo.TaotaoResult@5deae42e
-2018-09-27 11:10:54,161 [http-bio-8081-exec-8] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.taotao.common.pojo.TaotaoResult@5deae42e
-2018-09-27 11:10:54,163 [http-bio-8081-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.taotao.common.pojo.TaotaoResult@5deae42e] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@421cadec]
-2018-09-27 11:10:54,163 [http-bio-8081-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
-2018-09-27 11:10:54,163 [http-bio-8081-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-10-08 15:09:50,862 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2018-10-08 15:09:50,922 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-4.0.xsd] in classpath: org/springframework/context/config/spring-context-4.0.xsd
+2018-10-08 15:09:50,943 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+2018-10-08 15:09:50,971 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2018-10-08 15:09:51,001 [main] [org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver]-[DEBUG] Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-10-08 15:09:51,040 [main] [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]-[DEBUG] Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2018-10-08 15:09:51,041 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [F:\games\taotao\taotao-rest\target\classes\spring\applicationContext-jedis.xml]
+2018-10-08 15:09:51,043 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-10-08 15:09:51,046 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2018-10-08 15:09:51,071 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2018-10-08 15:09:51,076 [main] [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]-[DEBUG] Neither XML 'id' nor 'name' specified - using generated bean name [redis.clients.jedis.HostAndPort#5bb21b69]
+2018-10-08 15:09:51,076 [main] [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]-[DEBUG] Neither XML 'id' nor 'name' specified - using generated bean name [redis.clients.jedis.HostAndPort#6b9651f3]
+2018-10-08 15:09:51,077 [main] [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]-[DEBUG] Neither XML 'id' nor 'name' specified - using generated bean name [redis.clients.jedis.HostAndPort#38bc8ab5]
+2018-10-08 15:09:51,078 [main] [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]-[DEBUG] Neither XML 'id' nor 'name' specified - using generated bean name [redis.clients.jedis.HostAndPort#687080dc]
+2018-10-08 15:09:51,078 [main] [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]-[DEBUG] Neither XML 'id' nor 'name' specified - using generated bean name [redis.clients.jedis.HostAndPort#23d2a7e8]
+2018-10-08 15:09:51,079 [main] [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]-[DEBUG] Neither XML 'id' nor 'name' specified - using generated bean name [redis.clients.jedis.HostAndPort#7a9273a8]
+2018-10-08 15:09:51,080 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [F:\games\taotao\taotao-rest\target\classes\spring\applicationContext-service.xml]
+2018-10-08 15:09:51,081 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-10-08 15:09:51,084 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2018-10-08 15:09:51,104 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-4.0.xsd] in classpath: org/springframework/context/config/spring-context-4.0.xsd
+2018-10-08 15:09:51,118 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+2018-10-08 15:09:51,124 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2018-10-08 15:09:51,132 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2018-10-08 15:09:51,133 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-10-08 15:09:51,133 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-10-08 15:09:51,160 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in directory tree [F:\games\taotao\taotao-rest\target\classes\com\taotao\rest\service]
+2018-10-08 15:09:51,161 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Searching directory [F:\games\taotao\taotao-rest\target\classes\com\taotao\rest\service] for files matching pattern [F:/games/taotao/taotao-rest/target/classes/com/taotao/rest/service/**/*.class]
+2018-10-08 15:09:51,161 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Searching directory [F:\games\taotao\taotao-rest\target\classes\com\taotao\rest\service\impl] for files matching pattern [F:/games/taotao/taotao-rest/target/classes/com/taotao/rest/service/**/*.class]
+2018-10-08 15:09:51,162 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Resolved location pattern [classpath*:com/taotao/rest/service/**/*.class] to resources [file [F:\games\taotao\taotao-rest\target\classes\com\taotao\rest\service\ContentService.class], file [F:\games\taotao\taotao-rest\target\classes\com\taotao\rest\service\impl\ContentServiceImpl.class], file [F:\games\taotao\taotao-rest\target\classes\com\taotao\rest\service\impl\ItemCatServiceImpl.class], file [F:\games\taotao\taotao-rest\target\classes\com\taotao\rest\service\ItemCatService.class]]
+2018-10-08 15:09:51,216 [main] [org.springframework.context.annotation.ClassPathBeanDefinitionScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-rest\target\classes\com\taotao\rest\service\impl\ContentServiceImpl.class]
+2018-10-08 15:09:51,222 [main] [org.springframework.context.annotation.ClassPathBeanDefinitionScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-rest\target\classes\com\taotao\rest\service\impl\ItemCatServiceImpl.class]
+2018-10-08 15:09:51,264 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [F:\games\taotao\taotao-rest\target\classes\spring\applicationContext-trans.xml]
+2018-10-08 15:09:51,266 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-10-08 15:09:51,278 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2018-10-08 15:09:51,297 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/tx/spring-tx-4.0.xsd] in classpath: org/springframework/transaction/config/spring-tx-4.0.xsd
+2018-10-08 15:09:51,301 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+2018-10-08 15:09:51,312 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/aop/spring-aop-4.0.xsd] in classpath: org/springframework/aop/config/spring-aop-4.0.xsd
+2018-10-08 15:09:51,320 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2018-10-08 15:09:51,373 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[DEBUG] Loaded 16 bean definitions from location pattern [classpath:spring/applicationContext-*.xml]
+2018-10-08 15:09:51,374 [main] [org.springframework.context.support.ClassPathXmlApplicationContext]-[DEBUG] Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@6debcae2: org.springframework.beans.factory.support.DefaultListableBeanFactory@314c508a: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,jedisPoolConfig,redisClient,contentServiceImpl,itemCatServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0]; root of factory hierarchy
+2018-10-08 15:09:51,423 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-10-08 15:09:51,424 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-10-08 15:09:51,444 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-10-08 15:09:51,446 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-10-08 15:09:51,538 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-10-08 15:09:51,538 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-10-08 15:09:51,539 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+2018-10-08 15:09:51,577 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-10-08 15:09:51,577 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-10-08 15:09:51,579 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2018-10-08 15:09:51,579 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-10-08 15:09:51,579 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-10-08 15:09:51,581 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in directory tree [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper]
+2018-10-08 15:09:51,582 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Searching directory [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper] for files matching pattern [F:/games/taotao/taotao-manage/taotao-manager-mapper/target/classes/com/taotao/mapper/**/*.class]
+2018-10-08 15:09:51,585 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Resolved location pattern [classpath*:com/taotao/mapper/**/*.class] to resources [file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbContentCategoryMapper.class], file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbContentMapper.class], file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbItemCatMapper.class], file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbItemDescMapper.class], file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbItemMapper.class], file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbItemParamItemMapper.class], file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbItemParamMapper.class], file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbOrderItemMapper.class], file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbOrderMapper.class], file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbOrderShippingMapper.class], file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbUserMapper.class]]
+2018-10-08 15:09:51,586 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbContentCategoryMapper.class]
+2018-10-08 15:09:51,587 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbContentMapper.class]
+2018-10-08 15:09:51,588 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbItemCatMapper.class]
+2018-10-08 15:09:51,588 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbItemDescMapper.class]
+2018-10-08 15:09:51,588 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbItemMapper.class]
+2018-10-08 15:09:51,589 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbItemParamItemMapper.class]
+2018-10-08 15:09:51,590 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbItemParamMapper.class]
+2018-10-08 15:09:51,591 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbOrderItemMapper.class]
+2018-10-08 15:09:51,592 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbOrderMapper.class]
+2018-10-08 15:09:51,592 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbOrderShippingMapper.class]
+2018-10-08 15:09:51,595 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [F:\games\taotao\taotao-manage\taotao-manager-mapper\target\classes\com\taotao\mapper\TbUserMapper.class]
+2018-10-08 15:09:51,596 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.taotao.mapper.TbContentCategoryMapper' mapperInterface
+2018-10-08 15:09:51,598 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+2018-10-08 15:09:51,598 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbContentMapper' and 'com.taotao.mapper.TbContentMapper' mapperInterface
+2018-10-08 15:09:51,598 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+2018-10-08 15:09:51,599 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.taotao.mapper.TbItemCatMapper' mapperInterface
+2018-10-08 15:09:51,599 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+2018-10-08 15:09:51,599 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.taotao.mapper.TbItemDescMapper' mapperInterface
+2018-10-08 15:09:51,599 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+2018-10-08 15:09:51,599 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbItemMapper' and 'com.taotao.mapper.TbItemMapper' mapperInterface
+2018-10-08 15:09:51,599 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+2018-10-08 15:09:51,599 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.taotao.mapper.TbItemParamItemMapper' mapperInterface
+2018-10-08 15:09:51,599 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+2018-10-08 15:09:51,599 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.taotao.mapper.TbItemParamMapper' mapperInterface
+2018-10-08 15:09:51,599 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+2018-10-08 15:09:51,600 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.taotao.mapper.TbOrderItemMapper' mapperInterface
+2018-10-08 15:09:51,600 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+2018-10-08 15:09:51,600 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.taotao.mapper.TbOrderMapper' mapperInterface
+2018-10-08 15:09:51,600 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+2018-10-08 15:09:51,600 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.taotao.mapper.TbOrderShippingMapper' mapperInterface
+2018-10-08 15:09:51,600 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+2018-10-08 15:09:51,600 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'tbUserMapper' and 'com.taotao.mapper.TbUserMapper' mapperInterface
+2018-10-08 15:09:51,600 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+2018-10-08 15:09:51,603 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-10-08 15:09:51,604 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-10-08 15:09:51,605 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2018-10-08 15:09:51,617 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in directory tree [F:\games\taotao\taotao-rest\target\classes\resource]
+2018-10-08 15:09:51,617 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Searching directory [F:\games\taotao\taotao-rest\target\classes\resource] for files matching pattern [F:/games/taotao/taotao-rest/target/classes/resource/*.properties]
+2018-10-08 15:09:51,617 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Resolved location pattern [classpath:resource/*.properties] to resources [file [F:\games\taotao\taotao-rest\target\classes\resource\db.properties], file [F:\games\taotao\taotao-rest\target\classes\resource\resource.properties]]
+2018-10-08 15:09:51,618 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-10-08 15:09:51,620 [main] [org.springframework.core.env.MutablePropertySources]-[DEBUG] Adding [environmentProperties] PropertySource with lowest search precedence
+2018-10-08 15:09:51,620 [main] [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [F:\games\taotao\taotao-rest\target\classes\resource\db.properties]
+2018-10-08 15:09:51,621 [main] [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [F:\games\taotao\taotao-rest\target\classes\resource\resource.properties]
+2018-10-08 15:09:51,622 [main] [org.springframework.core.env.MutablePropertySources]-[DEBUG] Adding [localProperties] PropertySource with lowest search precedence
+2018-10-08 15:09:51,624 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.url' in [environmentProperties]
+2018-10-08 15:09:51,624 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.url' in [systemProperties]
+2018-10-08 15:09:51,624 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.url' in [systemEnvironment]
+2018-10-08 15:09:51,625 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'jdbc.url' in any property source. Returning [null]
+2018-10-08 15:09:51,625 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.url' in [localProperties]
+2018-10-08 15:09:51,625 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'jdbc.url' in [localProperties] with type [String] and value 'jdbc:mysql://127.0.0.1:3306/taotao?characterEncoding=utf-8'
+2018-10-08 15:09:51,628 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.username' in [environmentProperties]
+2018-10-08 15:09:51,628 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.username' in [systemProperties]
+2018-10-08 15:09:51,629 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.username' in [systemEnvironment]
+2018-10-08 15:09:51,629 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'jdbc.username' in any property source. Returning [null]
+2018-10-08 15:09:51,629 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.username' in [localProperties]
+2018-10-08 15:09:51,630 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'jdbc.username' in [localProperties] with type [String] and value 'root'
+2018-10-08 15:09:51,630 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.password' in [environmentProperties]
+2018-10-08 15:09:51,630 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.password' in [systemProperties]
+2018-10-08 15:09:51,630 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.password' in [systemEnvironment]
+2018-10-08 15:09:51,631 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'jdbc.password' in any property source. Returning [null]
+2018-10-08 15:09:51,631 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.password' in [localProperties]
+2018-10-08 15:09:51,631 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'jdbc.password' in [localProperties] with type [String] and value 'root1234'
+2018-10-08 15:09:51,631 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.driver' in [environmentProperties]
+2018-10-08 15:09:51,631 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.driver' in [systemProperties]
+2018-10-08 15:09:51,631 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.driver' in [systemEnvironment]
+2018-10-08 15:09:51,631 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'jdbc.driver' in any property source. Returning [null]
+2018-10-08 15:09:51,632 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'jdbc.driver' in [localProperties]
+2018-10-08 15:09:51,632 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'jdbc.driver' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver'
+2018-10-08 15:09:51,635 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-10-08 15:09:51,635 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-10-08 15:09:51,636 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-10-08 15:09:51,637 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-10-08 15:09:51,637 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-10-08 15:09:51,637 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-10-08 15:09:51,638 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-10-08 15:09:51,638 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-10-08 15:09:51,638 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-10-08 15:09:51,638 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-10-08 15:09:51,643 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-10-08 15:09:51,643 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-10-08 15:09:51,643 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-10-08 15:09:51,643 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-10-08 15:09:51,644 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-10-08 15:09:51,644 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-10-08 15:09:51,645 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-10-08 15:09:51,646 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-10-08 15:09:51,648 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-10-08 15:09:51,648 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-10-08 15:09:51,651 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-10-08 15:09:51,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-10-08 15:09:51,669 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2018-10-08 15:09:51,682 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-10-08 15:09:51,685 [main] [org.springframework.context.support.ClassPathXmlApplicationContext]-[DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@56620197]
+2018-10-08 15:09:51,687 [main] [org.springframework.context.support.ClassPathXmlApplicationContext]-[DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@43195e57]
+2018-10-08 15:09:51,690 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@314c508a: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,jedisPoolConfig,redisClient,contentServiceImpl,itemCatServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,tbContentCategoryMapper,tbContentMapper,tbItemCatMapper,tbItemDescMapper,tbItemMapper,tbItemParamItemMapper,tbItemParamMapper,tbOrderItemMapper,tbOrderMapper,tbOrderShippingMapper,tbUserMapper]; root of factory hierarchy
+2018-10-08 15:09:51,691 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-10-08 15:09:51,691 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'dataSource'
+2018-10-08 15:09:51,691 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'dataSource'
+2018-10-08 15:09:51,692 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:51,693 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:51,695 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' to allow for resolving potential circular references
+2018-10-08 15:09:51,701 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#61862a7f'
+2018-10-08 15:09:51,718 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#61862a7f'
+2018-10-08 15:09:51,719 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:51,755 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-10-08 15:09:51,838 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:51,839 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,129 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'dataSource'
+2018-10-08 15:09:52,129 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:52,130 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'sqlSessionFactory'
+2018-10-08 15:09:52,130 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,147 [main] [org.apache.ibatis.logging.LogFactory]-[DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-10-08 15:09:52,150 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2018-10-08 15:09:52,158 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'dataSource'
+2018-10-08 15:09:52,160 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2018-10-08 15:09:52,281 [main] [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed configuration file: 'class path resource [mybatis/SqlMapConfig.xml]'
+2018-10-08 15:09:52,284 [main] [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Property 'mapperLocations' was not specified or no matching resources found
+2018-10-08 15:09:52,285 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,286 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,291 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'sqlSessionFactory'
+2018-10-08 15:09:52,293 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-10-08 15:09:52,294 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'jedisPoolConfig'
+2018-10-08 15:09:52,294 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'jedisPoolConfig'
+2018-10-08 15:09:52,294 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,296 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'jedisPoolConfig' to allow for resolving potential circular references
+2018-10-08 15:09:52,305 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,306 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,309 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'jedisPoolConfig'
+2018-10-08 15:09:52,310 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'redisClient'
+2018-10-08 15:09:52,310 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redisClient'
+2018-10-08 15:09:52,310 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,322 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#5bb21b69'
+2018-10-08 15:09:52,323 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,330 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,331 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,340 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#5bb21b69'
+2018-10-08 15:09:52,340 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#6b9651f3'
+2018-10-08 15:09:52,341 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,341 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,342 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,342 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#6b9651f3'
+2018-10-08 15:09:52,342 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#38bc8ab5'
+2018-10-08 15:09:52,342 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,343 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,344 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,344 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#38bc8ab5'
+2018-10-08 15:09:52,344 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#687080dc'
+2018-10-08 15:09:52,344 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,345 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,346 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,346 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#687080dc'
+2018-10-08 15:09:52,346 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#23d2a7e8'
+2018-10-08 15:09:52,346 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,347 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,347 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,347 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#23d2a7e8'
+2018-10-08 15:09:52,347 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#7a9273a8'
+2018-10-08 15:09:52,348 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,348 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,348 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,349 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#7a9273a8'
+2018-10-08 15:09:52,349 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'jedisPoolConfig'
+2018-10-08 15:09:52,574 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'redisClient' to allow for resolving potential circular references
+2018-10-08 15:09:52,583 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,584 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,610 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redisClient'
+2018-10-08 15:09:52,610 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'contentServiceImpl'
+2018-10-08 15:09:52,610 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'contentServiceImpl'
+2018-10-08 15:09:52,611 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,617 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ContentServiceImpl]: AutowiredFieldElement for private com.taotao.mapper.TbContentMapper com.taotao.rest.service.impl.ContentServiceImpl.contentMapper
+2018-10-08 15:09:52,617 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'contentServiceImpl' to allow for resolving potential circular references
+2018-10-08 15:09:52,621 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'contentServiceImpl': AutowiredFieldElement for private com.taotao.mapper.TbContentMapper com.taotao.rest.service.impl.ContentServiceImpl.contentMapper
+2018-10-08 15:09:52,625 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,626 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbContentCategoryMapper'
+2018-10-08 15:09:52,626 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbContentCategoryMapper'
+2018-10-08 15:09:52,627 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbContentCategoryMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,639 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,639 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,643 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbContentCategoryMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,643 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,643 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbContentMapper'
+2018-10-08 15:09:52,644 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbContentMapper'
+2018-10-08 15:09:52,644 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbContentMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,645 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,645 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,645 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbContentMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,646 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,646 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbItemCatMapper'
+2018-10-08 15:09:52,647 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbItemCatMapper'
+2018-10-08 15:09:52,647 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbItemCatMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,648 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,648 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,648 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbItemCatMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,649 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,649 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbItemDescMapper'
+2018-10-08 15:09:52,649 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbItemDescMapper'
+2018-10-08 15:09:52,650 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbItemDescMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,650 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,650 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,651 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbItemDescMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbItemMapper'
+2018-10-08 15:09:52,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbItemMapper'
+2018-10-08 15:09:52,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbItemMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,655 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,655 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,656 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbItemMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,656 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,656 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbItemParamItemMapper'
+2018-10-08 15:09:52,657 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbItemParamItemMapper'
+2018-10-08 15:09:52,658 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbItemParamItemMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,658 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,659 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,659 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbItemParamItemMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,660 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,660 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbItemParamMapper'
+2018-10-08 15:09:52,660 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbItemParamMapper'
+2018-10-08 15:09:52,660 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbItemParamMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,661 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,661 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,662 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbItemParamMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,663 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,664 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbOrderItemMapper'
+2018-10-08 15:09:52,664 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbOrderItemMapper'
+2018-10-08 15:09:52,664 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbOrderItemMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,665 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,665 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,666 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbOrderItemMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,666 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,667 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbOrderMapper'
+2018-10-08 15:09:52,667 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbOrderMapper'
+2018-10-08 15:09:52,667 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbOrderMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,668 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,669 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,669 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbOrderMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,670 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,670 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbOrderShippingMapper'
+2018-10-08 15:09:52,670 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbOrderShippingMapper'
+2018-10-08 15:09:52,671 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbOrderShippingMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,671 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,671 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,671 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbOrderShippingMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,672 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,672 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbUserMapper'
+2018-10-08 15:09:52,672 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbUserMapper'
+2018-10-08 15:09:52,672 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbUserMapper' to allow for resolving potential circular references
+2018-10-08 15:09:52,672 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,672 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,673 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'tbUserMapper' that is not fully initialized yet - a consequence of a circular reference
+2018-10-08 15:09:52,673 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:52,673 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,674 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:52,679 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbUserMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:52,707 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbUserMapper'
+2018-10-08 15:09:52,862 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbUserMapper'
+2018-10-08 15:09:52,862 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:52,863 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbOrderShippingMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:52,864 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbOrderShippingMapper'
+2018-10-08 15:09:52,908 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbOrderShippingMapper'
+2018-10-08 15:09:52,908 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:52,909 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbOrderMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:52,910 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbOrderMapper'
+2018-10-08 15:09:52,954 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbOrderMapper'
+2018-10-08 15:09:52,954 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:52,954 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbOrderItemMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:52,956 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbOrderItemMapper'
+2018-10-08 15:09:53,031 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbOrderItemMapper'
+2018-10-08 15:09:53,032 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:53,032 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbItemParamMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:53,033 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbItemParamMapper'
+2018-10-08 15:09:53,068 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbItemParamMapper'
+2018-10-08 15:09:53,068 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:53,068 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbItemParamItemMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:53,069 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbItemParamItemMapper'
+2018-10-08 15:09:53,100 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbItemParamItemMapper'
+2018-10-08 15:09:53,100 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:53,101 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbItemMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:53,102 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbItemMapper'
+2018-10-08 15:09:53,139 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbItemMapper'
+2018-10-08 15:09:53,139 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:53,139 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbItemDescMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:53,140 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbItemDescMapper'
+2018-10-08 15:09:53,168 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbItemDescMapper'
+2018-10-08 15:09:53,168 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:53,168 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbItemCatMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:53,169 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbItemCatMapper'
+2018-10-08 15:09:53,203 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbItemCatMapper'
+2018-10-08 15:09:53,204 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:53,205 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbContentMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:53,205 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbContentMapper'
+2018-10-08 15:09:53,259 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbContentMapper'
+2018-10-08 15:09:53,259 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:53,259 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbContentCategoryMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-10-08 15:09:53,261 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbContentCategoryMapper'
+2018-10-08 15:09:53,310 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbContentCategoryMapper'
+2018-10-08 15:09:53,311 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbContentMapper'
+2018-10-08 15:09:53,315 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,315 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,321 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'contentServiceImpl' to bean named 'tbContentMapper'
+2018-10-08 15:09:53,322 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,323 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,325 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'txAdvice'
+2018-10-08 15:09:53,325 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'txAdvice'
+2018-10-08 15:09:53,328 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'txAdvice' to allow for resolving potential circular references
+2018-10-08 15:09:53,332 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'transactionManager'
+2018-10-08 15:09:53,332 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'transactionManager'
+2018-10-08 15:09:53,332 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,343 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2018-10-08 15:09:53,349 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'dataSource'
+2018-10-08 15:09:53,350 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2018-10-08 15:09:53,350 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,350 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,354 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'transactionManager'
+2018-10-08 15:09:53,355 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#490caf5f'
+2018-10-08 15:09:53,355 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,361 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-10-08 15:09:53,364 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [insert*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-10-08 15:09:53,366 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-10-08 15:09:53,366 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [create*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-10-08 15:09:53,366 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [delete*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-10-08 15:09:53,366 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-10-08 15:09:53,367 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [find*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2018-10-08 15:09:53,367 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [select*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2018-10-08 15:09:53,367 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [get*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2018-10-08 15:09:53,367 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,368 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,372 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#490caf5f'
+2018-10-08 15:09:53,372 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'txAdvice'
+2018-10-08 15:09:53,373 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'txAdvice'
+2018-10-08 15:09:53,384 [main] [org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]-[DEBUG] Creating implicit proxy for bean 'contentServiceImpl' with 0 common interceptors and 2 specific interceptors
+2018-10-08 15:09:53,386 [main] [org.springframework.aop.framework.JdkDynamicAopProxy]-[DEBUG] Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.taotao.rest.service.impl.ContentServiceImpl@6cb6decd]
+2018-10-08 15:09:53,391 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'contentServiceImpl'
+2018-10-08 15:09:53,392 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'itemCatServiceImpl'
+2018-10-08 15:09:53,392 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'itemCatServiceImpl'
+2018-10-08 15:09:53,392 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,393 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ItemCatServiceImpl]: AutowiredFieldElement for private com.taotao.mapper.TbItemCatMapper com.taotao.rest.service.impl.ItemCatServiceImpl.itemCatMapper
+2018-10-08 15:09:53,393 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'itemCatServiceImpl' to allow for resolving potential circular references
+2018-10-08 15:09:53,396 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'itemCatServiceImpl': AutowiredFieldElement for private com.taotao.mapper.TbItemCatMapper com.taotao.rest.service.impl.ItemCatServiceImpl.itemCatMapper
+2018-10-08 15:09:53,396 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemCatMapper'
+2018-10-08 15:09:53,399 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,399 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,402 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'itemCatServiceImpl' to bean named 'tbItemCatMapper'
+2018-10-08 15:09:53,402 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,402 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,403 [main] [org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]-[DEBUG] Creating implicit proxy for bean 'itemCatServiceImpl' with 0 common interceptors and 2 specific interceptors
+2018-10-08 15:09:53,403 [main] [org.springframework.aop.framework.JdkDynamicAopProxy]-[DEBUG] Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.taotao.rest.service.impl.ItemCatServiceImpl@4816278d]
+2018-10-08 15:09:53,407 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'itemCatServiceImpl'
+2018-10-08 15:09:53,407 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-10-08 15:09:53,407 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-10-08 15:09:53,407 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-10-08 15:09:53,407 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'transactionManager'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'txAdvice'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbContentCategoryMapper'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbContentMapper'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemCatMapper'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemDescMapper'
+2018-10-08 15:09:53,408 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemMapper'
+2018-10-08 15:09:53,409 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemParamItemMapper'
+2018-10-08 15:09:53,409 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemParamMapper'
+2018-10-08 15:09:53,409 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderItemMapper'
+2018-10-08 15:09:53,409 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderMapper'
+2018-10-08 15:09:53,409 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderShippingMapper'
+2018-10-08 15:09:53,409 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbUserMapper'
+2018-10-08 15:09:53,411 [main] [org.springframework.context.support.ClassPathXmlApplicationContext]-[DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@39d9314d]
+2018-10-08 15:09:53,412 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-10-08 15:09:53,414 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-08 15:09:53,417 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-10-08 15:09:53,417 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-10-08 15:09:53,417 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-10-08 15:09:53,417 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'redisClient'

@@ -1,6 +1,7 @@
 package com.taotao.rest.service.impl;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import com.taotao.mapper.TbContentMapper;
 import com.taotao.pojo.TbContent;
@@ -14,6 +15,7 @@ public class ContentServiceImpl implements ContentService {
 
 	@Autowired
 	private TbContentMapper contentMapper;
+	
 	@Override
 	public List<TbContent> getContentList(long contentCid) {
 		//根据内容分类id查询内容列表
